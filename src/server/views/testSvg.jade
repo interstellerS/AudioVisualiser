@@ -1,0 +1,19 @@
+
+extends layout
+
+// Test Setup
+
+block content
+  audio#myAudioSample(preload="auto", autobuffer, controls, src='/audio/tokyo.mp3')
+  div#mocha
+  div#messages
+  div#fixtures
+  // Set up Chai and Mocha.
+  script(type='text/javascript', src= '/AudioVisualizer.js')  
+  script(type='text/javascript', src= '/SvgBarChart.js')
+  script.
+   mocha.setup("bdd");
+  script(type='text/javascript', src= '/testSvg.js')  
+  script(type='text/javascript', src= '/testVisualizer.js')  
+  script.
+   mocha.run();

@@ -1,0 +1,9 @@
+body {
+  padding: 0px 80px;
+  font: 14px "Helvetica Nueue", "Lucida Grande", Arial, sans-serif;
+}
+.visualution {
+  background-color: bisque;
+  width: 700px;
+  height: 400px;
+}

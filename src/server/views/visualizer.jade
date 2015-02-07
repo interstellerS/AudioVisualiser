@@ -1,0 +1,7 @@
+
+extends layout
+
+block content
+  audio#myAudioSample(preload="auto", autobuffer, controls, src='/audio/tokyo.mp3')
+  div#visualisationDiv.visualution
+  script(type='text/javascript', src= '/visualiser.js')  

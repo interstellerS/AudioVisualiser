@@ -1,0 +1,43 @@
+{
+  "name": "AudioVisualizer",
+  "version": "0.0.0",
+  "description": "html5 audio visualisation with svg",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "express": "4.10.4",
+    "jade": "^1.8.0",
+    "should": "^4.3.0",
+    "supertest": "0.15.0"
+  },
+  "devDependencies": {
+    "connect-modrewrite": "^0.7.9",
+    "expect.js": "~0.2.0",
+    "grunt": "0.4.x",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-express": "~1.0.0-beta2",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-open": "~0.2.1",
+    "grunt-mocha-cli": "~1.0.2",
+    "grunt-mocha-test": "^0.12.4",
+    "matchdep": "~0.1.2",
+    "mocha": "^1.21.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "htmlk",
+    "audio",
+    "visualisation",
+    "svg"
+  ],
+  "author": "sami jmii",
+  "license": "MIT"
+}
